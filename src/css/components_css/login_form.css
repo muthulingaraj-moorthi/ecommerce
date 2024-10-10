@@ -1,0 +1,75 @@
+.login_form_page {
+    background-color: #c8bfc1;
+    position: relative;
+    height: 100vh;
+}
+
+.login_form_page .login_fome-init {
+    width: 50%;
+    max-width: 747px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.login_fome-init .form_lable {
+    max-width: 75%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.login_fome-init .form_lable label {
+    display: block;
+    text-align: start;
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.login_fome-init .form_lable input {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.login_fome-init .form_lable input:focus{
+    outline: none;
+}
+
+.login_fome-init button {
+    display: block;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.login_fome-init button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo_section h4 {
+    margin-top: 0;
+}
+
+.submit_sign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
