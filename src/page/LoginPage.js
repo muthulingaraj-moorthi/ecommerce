@@ -51,7 +51,7 @@ function LoginPage(props) {
             }
         }
         catch (error) {
-            setLoginerror(error.response.data)
+            setLoginerror(error.response?.data)
             console.log(error.response)
         }
     }
